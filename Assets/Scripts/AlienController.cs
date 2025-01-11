@@ -25,6 +25,7 @@ public class AlienController : MonoBehaviour
     public float minY = -9f;  // Límite mínimo en el eje Y
     public float maxY = 16f;   // Límite máximo en el eje Y
 
+    private int jumpCount = 0;  // Para contar los saltos (0 = en el suelo, 1 = primer salto, 2 = doble salto)
 
     void Start()
     {
@@ -73,18 +74,20 @@ public class AlienController : MonoBehaviour
         }
 
         // Salto
-        if (Input.GetKeyDown(jumpKey) && !isJumping)
+        if (Input.GetKeyDown(jumpKey))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Fuerza de salto
-            animator.SetBool("isJumping", true); // Cambiar a animación de salto
-            isJumping = true;
+            if (jumpCount < 2) // Permitir salto si el contador de saltos es menor que 2
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Fuerza de salto
+                animator.SetBool("isJumping", true); // Cambiar a animación de salto
+                jumpCount++; // Incrementar el contador de saltos
+            }
         }
 
         // Transición entre salto y caída
         if (rb.velocity.y < 0 && isJumping)
         {
             animator.SetBool("isJumping", false); // Termina la animación de salto
-            isJumping = false;
         }
     }
 
@@ -103,11 +106,12 @@ public class AlienController : MonoBehaviour
         {
             Die();
         }
-        // Si colisiona con el suelo, se puede permitir el siguiente salto
+        // Si colisiona con el suelo, restablecer el contador de saltos
         else if (collision.collider.CompareTag("Ground"))
         {
             isJumping = false; // El alien está en el suelo
             animator.SetBool("isJumping", false); // Termina la animación de salto
+            jumpCount = 0;  // Restablecer el contador de saltos cuando toque el suelo
         }
     }
 

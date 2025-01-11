@@ -9,6 +9,7 @@ TagManager:
   - Acid
   - Fire
   - Water
+  - Alien
   layers:
   - Default
   - TransparentFX

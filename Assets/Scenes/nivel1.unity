@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 130719217}
   m_Layer: 0
   m_Name: Tile_45 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 203072620}
   m_Layer: 0
   m_Name: Tile_45 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 256209876}
   m_Layer: 0
   m_Name: Tile_45 (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 267250050}
   m_Layer: 0
   m_Name: Tile_44 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 287624390}
   m_Layer: 0
   m_Name: Tile_45 (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 381237612}
   m_Layer: 0
   m_Name: Tile_45 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1044,7 +1044,7 @@ GameObject:
   - component: {fileID: 416731579}
   m_Layer: 0
   m_Name: Tile_45 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 427471062}
   m_Layer: 0
   m_Name: Tile_45 (39)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1304,7 +1304,7 @@ GameObject:
   - component: {fileID: 442938372}
   m_Layer: 0
   m_Name: Tile_45 (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1434,7 +1434,7 @@ GameObject:
   - component: {fileID: 445794463}
   m_Layer: 0
   m_Name: Tile_45 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1564,7 +1564,7 @@ GameObject:
   - component: {fileID: 448419273}
   m_Layer: 0
   m_Name: Tile_45 (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1767,7 +1767,7 @@ Transform:
   m_GameObject: {fileID: 467638367}
   serializedVersion: 2
   m_LocalRotation: {x: -0.003002043, y: 0, z: 0, w: 0.99999547}
-  m_LocalPosition: {x: 0.7, y: 1.4, z: -16.4}
+  m_LocalPosition: {x: 0.7, y: 1.5, z: -16.4}
   m_LocalScale: {x: 8.093641, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1786,7 +1786,7 @@ GameObject:
   - component: {fileID: 494090774}
   m_Layer: 0
   m_Name: Tile_45 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2074,7 +2074,7 @@ GameObject:
   - component: {fileID: 568188685}
   m_Layer: 0
   m_Name: Tile_45 (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2204,7 +2204,7 @@ GameObject:
   - component: {fileID: 600083165}
   m_Layer: 0
   m_Name: Tile_47 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2334,7 +2334,7 @@ GameObject:
   - component: {fileID: 619082336}
   m_Layer: 0
   m_Name: Tile_45 (37)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 620802168}
   m_Layer: 0
   m_Name: Tile_45 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2594,7 +2594,7 @@ GameObject:
   - component: {fileID: 652441684}
   m_Layer: 0
   m_Name: Tile_45 (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2814,7 +2814,7 @@ Transform:
   m_GameObject: {fileID: 686162810}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.39, y: 5.84, z: 10}
+  m_LocalPosition: {x: -11.47, y: -6.55, z: 10}
   m_LocalScale: {x: 0.4, y: 0.4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2904,8 +2904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2fb0668120a86468a46ab02dbb37d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 10
+  moveSpeed: 4
+  jumpForce: 7
   leftKey: 276
   rightKey: 275
   jumpKey: 273
@@ -2928,7 +2928,7 @@ GameObject:
   - component: {fileID: 692048483}
   m_Layer: 0
   m_Name: Tile_45 (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3058,7 +3058,7 @@ GameObject:
   - component: {fileID: 755100986}
   m_Layer: 0
   m_Name: Tile_45 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3188,7 +3188,7 @@ GameObject:
   - component: {fileID: 766264205}
   m_Layer: 0
   m_Name: Tile_47 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3318,7 +3318,7 @@ GameObject:
   - component: {fileID: 925715129}
   m_Layer: 0
   m_Name: Tile_45 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3448,7 +3448,7 @@ GameObject:
   - component: {fileID: 926920165}
   m_Layer: 0
   m_Name: Tile_45 (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3578,7 +3578,7 @@ GameObject:
   - component: {fileID: 940446652}
   m_Layer: 0
   m_Name: Tile_45 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3708,7 +3708,7 @@ GameObject:
   - component: {fileID: 942727875}
   m_Layer: 0
   m_Name: Tile_45 (36)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3838,7 +3838,7 @@ GameObject:
   - component: {fileID: 985105435}
   m_Layer: 0
   m_Name: Tile_47 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3968,7 +3968,7 @@ GameObject:
   - component: {fileID: 1029076519}
   m_Layer: 0
   m_Name: Tile_45 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4098,7 +4098,7 @@ GameObject:
   - component: {fileID: 1034046417}
   m_Layer: 0
   m_Name: Tile_47 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4228,7 +4228,7 @@ GameObject:
   - component: {fileID: 1049875158}
   m_Layer: 0
   m_Name: Tile_45 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4358,7 +4358,7 @@ GameObject:
   - component: {fileID: 1140172485}
   m_Layer: 0
   m_Name: Tile_45 (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4488,7 +4488,7 @@ GameObject:
   - component: {fileID: 1159155327}
   m_Layer: 0
   m_Name: Tile_45 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4618,7 +4618,7 @@ GameObject:
   - component: {fileID: 1194766563}
   m_Layer: 0
   m_Name: Tile_44
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4798,7 +4798,7 @@ GameObject:
   - component: {fileID: 1202640597}
   m_Layer: 0
   m_Name: Tile_45 (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4928,7 +4928,7 @@ GameObject:
   - component: {fileID: 1223959957}
   m_Layer: 0
   m_Name: Tile_47 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4994,7 +4994,7 @@ Transform:
   m_GameObject: {fileID: 1223959954}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.52484, y: 6.7281675, z: 10.37}
+  m_LocalPosition: {x: -4.52484, y: 6.42, z: 10.37}
   m_LocalScale: {x: 6.227377, y: 5.766749, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5058,7 +5058,7 @@ GameObject:
   - component: {fileID: 1249244040}
   m_Layer: 0
   m_Name: Tile_47 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5124,7 +5124,7 @@ Transform:
   m_GameObject: {fileID: 1249244037}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.695161, y: -7.17, z: 10.37}
+  m_LocalPosition: {x: 11.695161, y: -6.98, z: 10.37}
   m_LocalScale: {x: 6.227377, y: 5.045905, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5162,7 +5162,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.05}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5188,7 +5188,7 @@ GameObject:
   - component: {fileID: 1262192364}
   m_Layer: 0
   m_Name: Tile_47 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5254,7 +5254,7 @@ Transform:
   m_GameObject: {fileID: 1262192361}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.1551604, y: 6.7281675, z: 10.37}
+  m_LocalPosition: {x: 4.1551604, y: 6.42, z: 10.37}
   m_LocalScale: {x: 6.227377, y: 5.766749, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5318,7 +5318,7 @@ GameObject:
   - component: {fileID: 1264278188}
   m_Layer: 0
   m_Name: Tile_45
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5448,7 +5448,7 @@ GameObject:
   - component: {fileID: 1266611812}
   m_Layer: 0
   m_Name: Tile_45 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5578,7 +5578,7 @@ GameObject:
   - component: {fileID: 1296829271}
   m_Layer: 0
   m_Name: Tile_47 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5693,7 +5693,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.2}
+  m_Size: {x: 0.3, y: 0.3}
   m_EdgeRadius: 0
 --- !u!1 &1331293755
 GameObject:
@@ -5708,7 +5708,7 @@ GameObject:
   - component: {fileID: 1331293758}
   m_Layer: 0
   m_Name: Tile_45 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5838,7 +5838,7 @@ GameObject:
   - component: {fileID: 1341174659}
   m_Layer: 0
   m_Name: Tile_45 (40)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5904,7 +5904,7 @@ Transform:
   m_GameObject: {fileID: 1341174656}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.66484, y: 6.6481676, z: 10.37}
+  m_LocalPosition: {x: -12.66484, y: 6.34, z: 10.37}
   m_LocalScale: {x: 7.334201, y: 5.9304028, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5968,7 +5968,7 @@ GameObject:
   - component: {fileID: 1346396477}
   m_Layer: 0
   m_Name: Tile_45 (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6098,7 +6098,7 @@ GameObject:
   - component: {fileID: 1419133054}
   m_Layer: 0
   m_Name: Tile_45 (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6228,7 +6228,7 @@ GameObject:
   - component: {fileID: 1435246027}
   m_Layer: 0
   m_Name: Tile_45 (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6358,7 +6358,7 @@ GameObject:
   - component: {fileID: 1479437863}
   m_Layer: 0
   m_Name: Tile_47 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6488,7 +6488,7 @@ GameObject:
   - component: {fileID: 1509467746}
   m_Layer: 0
   m_Name: Tile_45 (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6798,8 +6798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2fb0668120a86468a46ab02dbb37d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 9
+  moveSpeed: 4
+  jumpForce: 7
   leftKey: 97
   rightKey: 100
   jumpKey: 119
@@ -6822,7 +6822,7 @@ GameObject:
   - component: {fileID: 1627468505}
   m_Layer: 0
   m_Name: Tile_47 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6888,7 +6888,7 @@ Transform:
   m_GameObject: {fileID: 1627468502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.604839, y: 6.7281675, z: 10.37}
+  m_LocalPosition: {x: -8.604839, y: 6.42, z: 10.37}
   m_LocalScale: {x: 6.227377, y: 5.766749, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6952,7 +6952,7 @@ GameObject:
   - component: {fileID: 1671766862}
   m_Layer: 0
   m_Name: Tile_45 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7082,7 +7082,7 @@ GameObject:
   - component: {fileID: 1680169456}
   m_Layer: 0
   m_Name: Tile_45 (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7236,7 +7236,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.05}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7247,7 +7247,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
+  m_Size: {x: 0.13, y: 0.1}
   m_EdgeRadius: 0
 --- !u!1 &1711286230
 GameObject:
@@ -7262,7 +7262,7 @@ GameObject:
   - component: {fileID: 1711286233}
   m_Layer: 0
   m_Name: Tile_47 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7328,7 +7328,7 @@ Transform:
   m_GameObject: {fileID: 1711286230}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12483963, y: 6.7281675, z: 10.37}
+  m_LocalPosition: {x: -0.12483963, y: 6.42, z: 10.37}
   m_LocalScale: {x: 6.227377, y: 5.766749, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7526,7 +7526,7 @@ GameObject:
   - component: {fileID: 1796181710}
   m_Layer: 0
   m_Name: Tile_45 (41)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7592,7 +7592,7 @@ Transform:
   m_GameObject: {fileID: 1796181707}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.084839, y: 6.6481676, z: 10.37}
+  m_LocalPosition: {x: -15.084839, y: 6.34, z: 10.37}
   m_LocalScale: {x: 8.05154, y: 5.9304028, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7656,7 +7656,7 @@ GameObject:
   - component: {fileID: 1811471550}
   m_Layer: 0
   m_Name: Tile_45 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7786,7 +7786,7 @@ GameObject:
   - component: {fileID: 1869967592}
   m_Layer: 0
   m_Name: Tile_45 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
