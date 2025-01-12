@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SecondButtonMechanism : MonoBehaviour
 {
-    public ButtonMechanism buttonMechanism; // Referencia al primer script
-    public Vector3 newTargetPosition;      // Nueva posición objetivo del bloque
+    public ButtonMechanism buttonMechanism; 
+    public Vector3 newTargetPosition;     
 
     void OnTriggerEnter2D(Collider2D collision)
     {

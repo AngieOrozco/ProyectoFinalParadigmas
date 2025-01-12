@@ -10,6 +10,7 @@ TagManager:
   - Fire
   - Water
   - Alien
+  - Villain
   layers:
   - Default
   - TransparentFX

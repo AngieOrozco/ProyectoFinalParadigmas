@@ -122,6 +122,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &98398575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98398577}
+  - component: {fileID: 98398576}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &98398576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98398575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e6a9e2cc624014fb448d699eb1a987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alien1: {fileID: 1595866651}
+  alien2: {fileID: 686162810}
+--- !u!4 &98398577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98398575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.456863, y: 1.4342817, z: -0.031004896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130719214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +1963,7 @@ GameObject:
   - component: {fileID: 504764830}
   m_Layer: 0
   m_Name: block
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2001,7 +2047,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3
+  m_Mass: 4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2814,7 +2860,7 @@ Transform:
   m_GameObject: {fileID: 686162810}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.47, y: -6.55, z: 10}
+  m_LocalPosition: {x: -13.46, y: -5.76, z: 10}
   m_LocalScale: {x: 0.4, y: 0.4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2909,6 +2955,7 @@ MonoBehaviour:
   leftKey: 276
   rightKey: 275
   jumpKey: 273
+  isDead: 0
   isRedAlien: 1
   isBlueAlien: 0
   minX: -18
@@ -3305,6 +3352,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!1 &781529369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2803626203183378950, guid: 5b5e345698defa744ae6b43f96cf0602, type: 3}
+  m_PrefabInstance: {fileID: 5453048560305944636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &781529370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781529369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091d703d315180d4b94d59cb55624f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alien1: {fileID: 1595866651}
+  alien2: {fileID: 686162810}
+  nextSceneName: NextLevelBackground
 --- !u!1 &925715127
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,7 +6775,7 @@ Transform:
   m_GameObject: {fileID: 1595866651}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.75, y: -6.81, z: 10}
+  m_LocalPosition: {x: -11.11, y: -5.76, z: 10}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6803,6 +6870,7 @@ MonoBehaviour:
   leftKey: 97
   rightKey: 100
   jumpKey: 119
+  isDead: 0
   isRedAlien: 0
   isBlueAlien: 1
   minX: -18
@@ -8116,7 +8184,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2803626203183378950, guid: 5b5e345698defa744ae6b43f96cf0602, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 781529370}
   m_SourcePrefab: {fileID: 100100000, guid: 5b5e345698defa744ae6b43f96cf0602, type: 3}
 --- !u!1001 &6337654780116352800
 PrefabInstance:
@@ -8265,3 +8336,4 @@ SceneRoots:
   - {fileID: 5453048560305944636}
   - {fileID: 1595866654}
   - {fileID: 686162813}
+  - {fileID: 98398577}
